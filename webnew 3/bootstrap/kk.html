@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="" type="text/css" href="css/style.css">
+   <!-- <link rel="stylesheet" type="text/css" href="css/style.css">  -->
+    <link rel='stylesheet' type='text/css' media='screen' href='text/css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script>
+      
+    </script>
+    <style type="css/text">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #7d2ae8;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.card{
+    position: relative;
+    border-radius: 20px;
+    background: #fff;
+    margin: 20px 0;
+    width: 280px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #7d2ae8;
+    border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    z-index: 100;
+
+}
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+
+ 
+}
+.card .media-icons i{
+    color: #fff;
+    opacity: 0.6;
+    margin-top:10PX ;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+
+}
+
+.name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name-profession .progression{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px ;
+}
+
+ .rating i{
+   font-size: 18px;
+    margin: 0 2px;
+    color: #7d2ae8;
+}
+.card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button button{
+
+    border-radius: 20px;
+    padding: 8px 22px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #7d2ae8;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.button .button:hover{
+    background: #6616d0;
+}
+
+
+    </style>
+
+  
+    
+</head>
+<body>
+    <section>
+        <div class="swiper myswiper container">
+            <div class=" swiper-wrapper content">
+                <div class=" swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/pa.jpeg">
+                        </div>
+                        <div class="media-icons">
+                            <li class="fa fa-facebook"></li>
+                            <li class="fa fa-twitter"></li>
+                            <li class="fa fa-github"></li>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">prem Shahi</span>
+                            <span class="progression">web develoepr</span>
+                        </div>
+                        <div class="rating">
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+                            <li class="fa fa-star"></li>
+
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About Me</button>
+                            <button class="hireMe">Hire Me</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-pagination"></div>
+        
+
+        
+    </section>
+
+</body>
+</html>
