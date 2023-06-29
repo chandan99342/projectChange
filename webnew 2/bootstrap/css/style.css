@@ -1,0 +1,220 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.bgimg{
+ 
+ background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(https://images.squarespace-cdn.com/content/v1/5a1cc61e7131a549d168070b/1561105483526-H2SGIW8DK965UDI2ONQY/Oakmont+Capital_PIXELLAB_PXLB6389.JPG?format=1500w);
+ height: 500px;
+ width: 100%;
+ clip-path: polygon(100% 0%, 100% 75%,50% 100%,0 75%,0 0 );
+ position: relative;
+}
+.headerset{
+ 
+float: left;
+ margin-top: 10%;
+}
+.header-buttons{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.header-extradiv{
+    text-align: center;
+    width: 100%; height: auto;
+    margin: 100px 0;
+
+
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.header-extradiv a{
+    text-align: center;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3s);
+    transform: translateY(-20px);
+}
+.servicediv{
+    margin-top: 40px;
+  
+}
+i{
+    color: #2fccd0;
+}
+
+.project-work{
+    margin: 100px 0;
+}
+.project-work h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/************************************our pricing start*****************************
+*/
+
+
+.money{
+
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+/************************************our happy client start*****************************
+*/
+
+.happyclients{
+    width: 100%;
+    height: 1250px;
+    padding: 80px 0;
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+    color: rgb(69, 150, 218);
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+.carousel-indicators li{
+    background-color: #2fccd0;
+}
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box a:after{
+    content: "\f10d";
+    font-family: fontAwesome;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #1e5799 0%, #3ccbdd 0%, #16c9f6 100%);
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h1{
+    font-size: 18px;
+    font-size: 400;
+    color: #000;
+    margin-bottom: 10px ;
+}
+.box h2{
+    font-size: 13px;
+    font-weight: 400px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+   
+/*---------------------------------------------------contactus------------------------------------*/
+
+
+.contactus{
+    width: 100%;
+    height: 100vh;
+    padding: 80px;
+    position: relative;
+}
+
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+    z-index: -1;
+  
+
+}
+.form-button button{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+
+}
+
+.form-button button:hover{
+    color: #50d1c0;
+}
+
+.form:hover .form-button button{
+    background: #fff;
+    color:#50d1c0;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+::placeholder{
+    font-size: 0.85rem;
+}
+
+/*-----------------------------------------------------------newsletter-----------------------------------------*/
+
+
+
+
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+}
+
+.news-input{
+    border-radius: 100px 0px 0px 100px;
+    min-width: 150px;
+    min-width: 45px;
+}
+
+.input-group-text{
+    color: #fff;
+    background: #5bc0de;
+    border-radius: 0 100px;
+
+}
+.footersection{
+    background: #16c9f6;
+}
+.text{
+    text-align: center;
+}
