@@ -1,0 +1,33 @@
+.imgea{
+    
+    width: 100%;
+    margin-right: 10px;
+}
+.i{
+    margin-right: 10px;  
+}
+.im2{
+    height: 300px;
+    width: 300px;
+    
+   
+}
+
+ul li a{
+    color: antiquewhite;
+
+}
+ul li a:hover{
+    background: red;
+    color: blueviolet;
+}
+.link1{
+    margin-top: 120px;
+}
+.img1{
+    margin-top: 80px;
+}
+.card1{
+    margin: 80px;
+}
+
